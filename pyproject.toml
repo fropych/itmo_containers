@@ -1,0 +1,15 @@
+[project]
+name = "cont"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.126.0",
+    "uvicorn>=0.40.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "lab2",
+]
